@@ -1,0 +1,29 @@
+{
+    "name": "LiveCollection",
+    "version": "1.0.0",
+    "authors": [
+        "d_one@inbox.ru"
+    ],
+    "description": "Backbone live collection",
+    "main": "liveCollection.js",
+    "keywords": [
+        "backbone",
+        "collection",
+        "live"
+    ],
+    "license": "MIT",
+    "homepage": "https://github.com/donvadicastro/liveCollection",
+    "ignore": [
+        "**/.*",
+        "node_modules",
+        "bower_components",
+        "test",
+        "tests",
+        "gruntfile.js",
+        "karma.conf.js"
+    ],
+    "dependencies": {
+        "backbone": "~1.1.2",
+        "jquery": "~2.1.3"
+    }
+}
