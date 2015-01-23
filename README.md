@@ -1,2 +1,2 @@
-# liveCollection
+# LiveCollection
 Backbone live collection
