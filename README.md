@@ -24,3 +24,11 @@ collection.remove({id:1,name:'a'}, {sync: true});
 
 So to change collection behavior to support server persistance it must be ```{sync: true}``` flag added.
 CRUD collection operations return promise so success and error callbacks can be used to get persistense result.
+
+```javascript
+collection.add({id:1,name:'a'}, {sync: true}).then(function() {
+  alert('Suuccess');
+}, function() {
+  alert('Error');
+});
+```
