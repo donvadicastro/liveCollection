@@ -22,4 +22,4 @@ collection.update({id:1,name:'b'}, {sync: true});
 collection.remove({id:1,name:'a'}, {sync: true});
 ```
 
-So to change collection behavior to support server persistance it must ```javascript{sync: true}``` flag added.
+So to change collection behavior to support server persistance it must ```javascript {sync: true}``` flag added.
