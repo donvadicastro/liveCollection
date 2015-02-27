@@ -5,7 +5,8 @@ So when add event occurs - new model should be pesisted first and then only adde
 When model edit action executes - this model should be pesisted first.
 This behavior is also true for deleting model from local collection.
 
-## Usage examples:
+## Usage examples
+Here you can find few examples how to use live collection.
 
 ### Adding new model
 ```javascript
